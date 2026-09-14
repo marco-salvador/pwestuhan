@@ -1,72 +1,101 @@
-<h1>Ryzon Internet Cafe</h1>
-<img src="ryzon.jpg" alt="Ryzon Internet Cafe" width="800" height="600">
-<p>Ryzon Internet Cafe is a popular spot for gamers and students to relax and have fun.</p>
+<!DOCTYPE html>
+<html lang="en">
 
-<table>
-    <tr>
-        <th>Location</th>
-        <th>Opening Hours</th>
-        <th>Entrance Fee</th>
-        <th>Best Time to Visit</th>
-    </tr>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryzon Internet Cafe - Pwestuhan</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
 
-    <tr>
-        <td>Internet Cafe infront of TUP Gate 4</td>
-        <td>Open daily, 24/7</td>
-        <td>50 pesos 3hrs per computer</td>
-        <td>Anytime></td>
-    </tr>
-</table>
+<body>
 
-<nav>
-    <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../about.html">About</a></li>
-        <li><a href="../contact.html">Contact</a></li>
-    </ul>
-</nav>
+<header>
+    <h1>Pwestuhan</h1>
+    <p>Nandito Ako Kung Saan Wala Ka</p>
 
-<h2>Suggest a Place</h2>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-<form>
-<label for="place-name">Place Name:</label>
-<input type="text" id="place-name" name="place-name" required>
+<main>
 
-<br><br>
+<section class="place-details">
 
-<fieldset>
-    <legend>Category:</legend>
+    <h2>Ryzon Internet Cafe</h2>
 
-    <input type="radio" id="internet-cafe" name="category" value="internet-cafe" required>
-    <label for="internet-cafe">Internet Cafe</label>
+    <img src="../ryzon.jpg" alt="Ryzon Internet Cafe" width="800" height="600">
 
-    <input type="radio" id="gaming" name="category" value="gaming">
-    <label for="gaming">Gaming Spot</label>
+    <p>Ryzon Internet Cafe is a popular spot for gamers and students to relax and have fun.</p>
 
-    <input type="radio" id="study" name="category" value="study">
-    <label for="study">Study Spot</label>
-</fieldset>
+    <table>
+        <tr>
+            <th>Location</th>
+            <th>Opening Hours</th>
+            <th>Entrance Fee</th>
+            <th>Best Time to Visit</th>
+        </tr>
 
-<br>
+        <tr>
+            <td>Internet Cafe infront of TUP Gate 4</td>
+            <td>Open daily, 24/7</td>
+            <td>50 pesos 3hrs per computer</td>
+            <td>Anytime</td>
+        </tr>
+    </table>
 
-<fieldset>
-    <legend>What's good about it?</legend>
+</section>
 
-    <input type="checkbox" id="affordable" name="good-points" value="affordable">
-    <label for="affordable">Affordable</label>
+<section class="suggest-form">
 
-    <input type="checkbox" id="gaming" name="good-points" value="gaming">
-    <label for="gaming">Good for Gaming</label>
+    <h2>Suggest a Place</h2>
 
-    <input type="checkbox" id="students" name="good-points" value="students">
-    <label for="students">Student-Friendly</label>
-</fieldset>
+    <form>
 
-<br>
+        <label for="place-name">Place Name:</label>
+        <input type="text" id="place-name" name="place-name" required>
 
-<label for="email">Contact Email:</label>
-<input type="email" id="email" name="email" required>
+        <fieldset>
+            <legend>Category:</legend>
 
-<br><br>
+            <input type="radio" id="internet-cafe" name="category" value="internet-cafe" required>
+            <label for="internet-cafe">Internet Cafe</label>
 
-<button type="submit">Suggest Place</button>
+            <input type="radio" id="gaming" name="category" value="gaming">
+            <label for="gaming">Gaming Spot</label>
+
+            <input type="radio" id="study" name="category" value="study">
+            <label for="study">Study Spot</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>What's good about it?</legend>
+
+            <input type="checkbox" id="affordable" name="good-points" value="affordable">
+            <label for="affordable">Affordable</label>
+
+            <input type="checkbox" id="good-gaming" name="good-points" value="gaming">
+            <label for="good-gaming">Good for Gaming</label>
+
+            <input type="checkbox" id="students" name="good-points" value="students">
+            <label for="students">Student-Friendly</label>
+        </fieldset>
+
+        <label for="email">Contact Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Suggest Place</button>
+
+    </form>
+
+</section>
+
+</main>
+
+</body>
+</html>

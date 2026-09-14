@@ -1,78 +1,101 @@
-<h1>Daddys Sisig House</h1>
-<img src="kainan.jpg" alt="Daddys Sisig House" width="800" height="600">
-<p>Daddy’s Sisig House is a great place to eat because the food is delicious, affordable, and filling. The meals are truly student-friendly, especially for those who are looking for something tasty without spending too much money. For as low as ₱40, you can already get a satisfying meal that can help you get through a busy school day. The food is flavorful and served in portions that are enough to keep students full and energized. With its budget-friendly prices and delicious meals, Daddy’s Sisig House is a good choice for students who want to enjoy a satisfying meal without going over their daily allowance.</p>
+<!DOCTYPE html>
+<html lang="en">
 
-<table>
-    <tr>
-        <th>Location</th>
-        <th>Opening Hours</th>
-        <th>Entrance Fee</th>
-        <th>Best Time to Visit</th>
-    </tr>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daddys Sisig House - Pwestuhan</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
 
-    <tr>
-        <td>721 Mercedes St. Manila, Near TUP MANILA</td>
-        <td>Open Monday to Saturday, 6:00 AM–9:00 PM</td>
-        <td>It depends on what you order</td>
-        <td>After Class, Lunch Break</td>
-    </tr>
-</table>
+<body>
 
-<nav>
-    <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../about.html">About</a></li>
-        <li><a href="../contact.html">Contact</a></li>
-    </ul>
-</nav>
+<header>
+    <h1>Pwestuhan</h1>
+    <p>Nandito Ako Kung Saan Wala Ka</p>
 
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-<h2>Suggest a Place</h2>
+<main>
 
-<form>
+<section class="place-details">
 
-```
-<label for="place-name">Place Name:</label>
-<input type="text" id="place-name" name="place-name" required>
+    <h2>Daddys Sisig House</h2>
 
-<br><br>
+    <img src="../kainan.jpg" alt="Daddys Sisig House" width="800" height="600">
 
-<fieldset>
-    <legend>Category:</legend>
+    <p>Daddy’s Sisig House is a great place to eat because the food is delicious, affordable, and filling. The meals are truly student-friendly, especially for those who are looking for something tasty without spending too much money. For as low as ₱40, you can already get a satisfying meal that can help you get through a busy school day. The food is flavorful and served in portions that are enough to keep students full and energized. With its budget-friendly prices and delicious meals, Daddy’s Sisig House is a good choice for students who want to enjoy a satisfying meal without going over their daily allowance.</p>
 
-    <input type="radio" id="restaurant" name="category" value="restaurant" required>
-    <label for="restaurant">Restaurant</label>
+    <table>
+        <tr>
+            <th>Location</th>
+            <th>Opening Hours</th>
+            <th>Entrance Fee</th>
+            <th>Best Time to Visit</th>
+        </tr>
 
-    <input type="radio" id="carinderia" name="category" value="carinderia">
-    <label for="carinderia">Carinderia</label>
+        <tr>
+            <td>721 Mercedes St. Manila, Near TUP MANILA</td>
+            <td>Open Monday to Saturday, 6:00 AM–9:00 PM</td>
+            <td>It depends on what you order</td>
+            <td>After Class, Lunch Break</td>
+        </tr>
+    </table>
 
-    <input type="radio" id="student-food" name="category" value="student-food">
-    <label for="student-food">Student-Friendly Food</label>
-</fieldset>
+</section>
 
-<br>
+<section class="suggest-form">
 
-<fieldset>
-    <legend>What's good about it?</legend>
+    <h2>Suggest a Place</h2>
 
-    <input type="checkbox" id="affordable" name="good-points" value="affordable">
-    <label for="affordable">Affordable</label>
+    <form>
 
-    <input type="checkbox" id="delicious" name="good-points" value="delicious">
-    <label for="delicious">Delicious Food</label>
+        <label for="place-name">Place Name:</label>
+        <input type="text" id="place-name" name="place-name" required>
 
-    <input type="checkbox" id="filling" name="good-points" value="filling">
-    <label for="filling">Filling Meals</label>
-</fieldset>
+        <fieldset>
+            <legend>Category:</legend>
 
-<br>
+            <input type="radio" id="restaurant" name="category" value="restaurant" required>
+            <label for="restaurant">Restaurant</label>
 
-<label for="email">Contact Email:</label>
-<input type="email" id="email" name="email" required>
+            <input type="radio" id="carinderia" name="category" value="carinderia">
+            <label for="carinderia">Carinderia</label>
 
-<br><br>
+            <input type="radio" id="student-food" name="category" value="student-food">
+            <label for="student-food">Student-Friendly Food</label>
+        </fieldset>
 
-<button type="submit">Suggest Place</button>
-```
+        <fieldset>
+            <legend>What's good about it?</legend>
 
-</form>
+            <input type="checkbox" id="affordable" name="good-points" value="affordable">
+            <label for="affordable">Affordable</label>
+
+            <input type="checkbox" id="delicious" name="good-points" value="delicious">
+            <label for="delicious">Delicious Food</label>
+
+            <input type="checkbox" id="filling" name="good-points" value="filling">
+            <label for="filling">Filling Meals</label>
+        </fieldset>
+
+        <label for="email">Contact Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Suggest Place</button>
+
+    </form>
+
+</section>
+
+</main>
+
+</body>
+</html>
