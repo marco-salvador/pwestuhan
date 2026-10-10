@@ -1,64 +1,84 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pwestuhan - My Places Guide</title>
+    <title>Pwestuhan | Student Guide</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-    <h1>Pwestuhan</h1>
-    <p>Nandito Ako Kung Saan Wala Ka</p>
+    <header class="site-header">
+        <div class="site-brand">
+            <h1>Pwestuhan</h1>
+            <p>Your guide to places worth visiting</p>
+        </div>
 
-<nav>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-     <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
-</header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<main>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Discover Your Next Pwestuhan</h2>
+                <p>
+                    Find places to eat, relax, and explore.
+                    Check out these places and plan your next visit.
+                </p>
+                <a class="hero-button" href="#places">Explore Places</a>
+            </div>
+        </section>
 
-<h2>My Top Picks</h2>
+        <section id="places" class="places-section">
+            <h2>Featured Places</h2>
+            <p class="section-description">
+                Here are some places you can check out.
+            </p>
 
-<section class="place-container">
-<article class="place-card">
-    <h3>Daddys Sisig House</h3>
-    <p>721 Mercedes St. Manila, Near TUP MANILA</p>
-    <p>It's Delicious here and very budget-friendly. The meals are truly meant for stuudents becuase for as low as 40 pesos, you can get a really filling meal.</p>
-    <img src="kainan.jpg" alt="kainan" width="400" height="300">
-  <a href="places/kainan.html">Read more</a>
-</article>
+            <div class="place-grid">
+                <article class="place-card">
+                    <img src="kainan.jpg" alt="Affordable place to eat">
+                    <h3>Kainan</h3>
+                    <p>
+                        Discover an affordable place to eat and enjoy
+                        satisfying meals without spending too much.
+                    </p>
+                    <a href="places/kainan.html">Read More</a>
+                </article>
 
-<article class="place-card">
-  <h3>Ryzon Internet Cafe</h3>
-    <p>Internet Cafe infront of TUP Gate 4</p>
-    <p>Ryzon Is a very comfortable spot for students, specially for emergencies when you need to submit assignments, PowerPoint presentation, or anything else, it's also a great place to play games</p>
-    <img src="ryzon.jpg" alt="ryzon" width="400" height="300">
-    <a href="places/ryzon.html">Read more</a>
-</article>
+                <article class="place-card">
+                    <img src="ryzon.jpg" alt="Ryzon place">
+                    <h3>Ryzon</h3>
+                    <p>
+                        Learn more about this place, what you can find
+                        there, and what makes it worth visiting.
+                    </p>
+                    <a href="places/ryzon.html">Read More</a>
+                </article>
 
-<article class="place-card">
-  <h3>Intramuros</h3>
-      <p>Historical landMark In Manila</p>
-      <p>Intramuros is a great place to hang out during breaks or when yor're doing fake face to face. The breeze here feels amazing, and you can really feel a sense of peace. When you're here, sespecially with friends, it feels like you dont have a single problem in the world</p>
-      <img src="intramuros.jpg" alt="intramuros" width="400" height="300">
-      <a href="places/intramuros.html">Read more</a>
-</article>
+                <article class="place-card">
+                    <img src="intramuros.jpg" alt="Historic Intramuros">
+                    <h3>Intramuros</h3>
+                    <p>
+                        Explore a historic destination known for its
+                        heritage, old buildings, and cultural landmarks.
+                    </p>
+                    <a href="places/intramuros.html">Read More</a>
+                </article>
+            </div>
+        </section>
+    </main>
 
-    </section>
-
-</main>
-
-<footer>
-    <p>&copy; 2026 Pwestuhan. All rights reserved.</p>
-</footer>
+    <footer>
+        <p>&copy; 2026 Pwestuhan. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
